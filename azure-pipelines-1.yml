@@ -8,8 +8,7 @@ trigger:
 
 pool:
   name: 'MyAgentPool'
-  demands:
-  - npm 
+
 
 variables:
   solution: '**/*.sln'
