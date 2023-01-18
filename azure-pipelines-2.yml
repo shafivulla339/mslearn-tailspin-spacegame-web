@@ -2,3 +2,7 @@ pool:
   name: 'MyAgentPool'
   demands:
   - npm
+- task: Npm@1
+  inputs:
+    command: 'install'
+    workingDir: 'packae'
